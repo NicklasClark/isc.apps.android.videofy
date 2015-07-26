@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2015-present iSC Apps & Videofy & The Android Open Source Project
+  All rights reserved.
+
+  This material may not be reproduced, displayed, modified or distributed
+  without the express prior written permission of the copyright holder.
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="isc.apps.android.videofy"
+    android:versionCode="2"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        <activity
+            android:name="com.splash.Splash"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.MyAppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.splash.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" >
+        </activity>
+    </application>
+
+</manifest> <!-- Build the <> with <3 by the iSC Apps & Videofy Team -->
