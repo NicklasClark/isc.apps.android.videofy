@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.splash;
+package isc.apps.android.videofy;
 
 public final class R {
     public static final class anim {
@@ -1365,19 +1365,19 @@ containing a value of this type.
         public static final int primary_text_default_material_light=0x7f060026;
         public static final int primary_text_disabled_material_dark=0x7f060027;
         public static final int primary_text_disabled_material_light=0x7f060028;
-        public static final int red=0x7f060029;
-        public static final int ripple_material_dark=0x7f06002a;
-        public static final int ripple_material_light=0x7f06002b;
-        public static final int secondary_text_default_material_dark=0x7f06002c;
-        public static final int secondary_text_default_material_light=0x7f06002d;
-        public static final int secondary_text_disabled_material_dark=0x7f06002e;
-        public static final int secondary_text_disabled_material_light=0x7f06002f;
-        public static final int switch_thumb_disabled_material_dark=0x7f060030;
-        public static final int switch_thumb_disabled_material_light=0x7f060031;
+        public static final int ripple_material_dark=0x7f060029;
+        public static final int ripple_material_light=0x7f06002a;
+        public static final int secondary_text_default_material_dark=0x7f06002b;
+        public static final int secondary_text_default_material_light=0x7f06002c;
+        public static final int secondary_text_disabled_material_dark=0x7f06002d;
+        public static final int secondary_text_disabled_material_light=0x7f06002e;
+        public static final int switch_thumb_disabled_material_dark=0x7f06002f;
+        public static final int switch_thumb_disabled_material_light=0x7f060030;
         public static final int switch_thumb_material_dark=0x7f06003d;
         public static final int switch_thumb_material_light=0x7f06003e;
-        public static final int switch_thumb_normal_material_dark=0x7f060032;
-        public static final int switch_thumb_normal_material_light=0x7f060033;
+        public static final int switch_thumb_normal_material_dark=0x7f060031;
+        public static final int switch_thumb_normal_material_light=0x7f060032;
+        public static final int yellow=0x7f060033;
     }
     public static final class dimen {
         public static final int abc_action_bar_content_inset_material=0x7f070000;
@@ -1509,7 +1509,10 @@ containing a value of this type.
         public static final int abc_textfield_search_activated_mtrl_alpha=0x7f020038;
         public static final int abc_textfield_search_default_mtrl_alpha=0x7f020039;
         public static final int abc_textfield_search_material=0x7f02003a;
-        public static final int ic_launcher=0x7f02003b;
+        public static final int anehtrinity=0x7f02003b;
+        public static final int by=0x7f02003c;
+        public static final int ic_launcher=0x7f02003d;
+        public static final int trinitylogo=0x7f02003e;
     }
     public static final class id {
         public static final int action_bar=0x7f080040;
@@ -1590,9 +1593,9 @@ containing a value of this type.
         public static final int title=0x7f08002c;
         public static final int title_template=0x7f08002f;
         public static final int topPanel=0x7f08002e;
-        public static final int trnity=0x7f08004f;
         public static final int up=0x7f080008;
         public static final int useLogo=0x7f080012;
+        public static final int videofy=0x7f08004f;
         public static final int withText=0x7f08001a;
         public static final int wrap_content=0x7f08001d;
     }
@@ -1670,6 +1673,8 @@ containing a value of this type.
             res/values-vXX/styles.xml, while customizations related to
             backward-compatibility can go here.
         
+ API 11 theme customizations can go here. 
+ API 14 theme customizations can go here. 
          */
         public static final int AppBaseTheme=0x7f0b0004;
         /**  All customizations that are NOT specific to a particular API-level can go here. 

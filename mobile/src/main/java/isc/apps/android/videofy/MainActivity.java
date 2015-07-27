@@ -24,14 +24,14 @@ public class MainActivity extends Activity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_main);
 
-        webView = (WebView) findViewById(R.id.trnity);
+        webView = (WebView) findViewById(R.id.videofy);
         webView.getSettings().setJavaScriptEnabled(true);
         webView.getSettings().setLoadWithOverviewMode(true);
         webView.getSettings().setUseWideViewPort(true);
         webView.getSettings().setBuiltInZoomControls(true);
         final AlertDialog alertDialog = new AlertDialog.Builder(this).create();
         progressBar = new ProgressDialog(MainActivity.this);
-        progressBar.setMessage("Trinity tuts loading...");
+        progressBar.setMessage("Loading Videofy...");
         progressBar.setCancelable(false);
         progressBar.setCanceledOnTouchOutside(false);
         progressBar.show();
