@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Base application theme is the default theme. -->
-    <style name="Theme" parent="android:style/Theme" />
+<!-- Base application theme is the default theme. -->
+<style name="Theme" parent="android:style/Theme" />
 
-    <style name="Theme.MyAppTheme" parent="Theme">
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowContentOverlay">@null</item>
-        <item name="android:windowBackground">@color/red</item>
+<style name="Theme.MyAppTheme" parent="Theme">
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:windowBackground">@color/red</item>
 
-    </style>
+</style>
 </resources>
