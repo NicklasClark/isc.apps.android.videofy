@@ -1,5 +1,5 @@
 /** Automatically generated file. DO NOT MODIFY */
-package com.splash;
+package isc.apps.android.videofy;
 
 public final class BuildConfig {
     public final static boolean DEBUG = true;
