@@ -6,7 +6,7 @@
 <style name="Theme.MyAppTheme" parent="Theme">
     <item name="android:windowNoTitle">true</item>
     <item name="android:windowContentOverlay">@null</item>
-    <item name="android:windowBackground">@color/red</item>
+    <item name="android:windowBackground">@color/yellow</item>
 
 </style>
 </resources>
